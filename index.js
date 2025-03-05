@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
 let manos = ["¡PIEDRA!", "¡PAPEL!", "¡TIJERA!"]
 let machinePoints = 0
 let humanPoints = 0
@@ -170,7 +169,7 @@ function tijera() {
 
 }
 
+
 function restart() {
 	location.reload();
 }
-})

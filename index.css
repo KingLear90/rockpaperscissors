@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url('https://fonts.cdnfonts.com/css/drexs-2');
+                
+body {
+	text-align: center;
+	color: black;
+	background-color: antiquewhite;
+}
+
+button {
+	color: antiquewhite;
+	width: 180px;
+	font-size: 16px;
+	font-weight: bold;
+	background: #C3270F;
+	border: 3px solid black;
+	border-radius: 8px;
+	padding: 4px 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #F64424;
+}
+
+.hands {
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+
+#piedra-El{
+	border: 2px solid grey;
+	margin-right: 45px;
+	cursor: pointer;
+}
+
+#piedra-El:hover {
+	border: 4px solid purple;
+}
+
+#papel-El{
+	border: 2px solid grey;
+	margin-right: 45px;
+	cursor: pointer;
+}
+
+#papel-El:hover {
+	border: 4px solid purple;
+}
+
+#tijera-El{
+	border: 2px solid grey;
+	cursor: pointer;
+}
+
+#tijera-El:hover {
+	border: 4px solid purple;
+}
+
+h1 {
+	color: #E92A3F;
+	transform: rotate(-2deg);
+	font-family: "Permanent Marker", cursive, 'sans-serif';
+	text-shadow: 5px 0 3px white;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-family: 'georgia', 'sans-serif';
+	font-size: 20px;
+	
+}
+h3{
+	font-family: 'georgia', 'sans-serif';
+	
+}
+
+#consigna {
+	font-size: 20px;
+}
+#machine {
+	display: flex;
+	background: white;
+	justify-content: center;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #11318E;
+}
+
+#elegir-El {
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	color: black;
+	font-size: 19px;
+}
+
+#result-El {
+	color: #D00B0F;
+}
+
+.puntaje-parcial {
+	display: flex;
+	justify-content: space-around;                   
+	letter-spacing: 3px;
+	margin-top: -5px;
+}
+
+#puntos {
+	color: antiquewhite;
+	font-family: 'Verdana', sans-serif; 
+	background: rebeccapurple;
+	font-size: 22px;
+}
+
+#puntosHumano {
+	color: antiquewhite;
+	font-family: 'Verdana', sans-serif; 
+	background: rebeccapurple;
+	font-size: 22px;
+}
+
+#final-El {
+	color: hsla(298,73%,41%,0.86);
+	width: 300px;
+	margin-top: 5px;
+	display: inline-flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#restart-El {
+	display: none;
+	
+}
+

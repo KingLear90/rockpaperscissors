@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera!</title>
+    <meta name="keywords" content="Piedra papel o tijera online, Rock Paper Scissors online, online game, juego online, juego Javascript, HTML, CSS">
+    <meta name="author" content="Alan F. M. Sánchez">
+    <link rel="stylesheet" href="index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+</head>
+
+<body>
+	<div class="inicio">
+    	<h1 style="text-shadow: 0 3px 2px black">¿PIEDRA, PAPEL o TIJERA?</h1>
+		<p id="consigna" style="text-shadow: 0 0 1px black">Gana quien consiga primero <span style="border-bottom: 3px solid deeppink; font-weight: 600">5 victorias.</span></p> 
+		<h3 id="elegir-El">Elige tu mano:</h3>
+	</div>
+	
+	<div class="hands">
+		<img id="piedra-El" 
+			 src="img/piedra.png" 
+			 alt="Imagen de un puño que representa una piedra." 
+			 width="15%"  
+			 onClick="piedra()">
+		<img id="papel-El" 
+			 src= "img/papel.png" 
+			 alt="Imagen de un mano abierta que representa un papel." 
+			 width="14.25%" 
+			 onClick="papel()">
+		<img id="tijera-El" 
+			 src="img/tijera.png" 
+			 alt="Imagen de una mano con los dedos índice y medio extendidos, en representación de una tijera." 
+			 width="14.10%"  
+			 onClick="tijera()">
+	</div>
+	
+	<div class="eleccion-maquina>">
+		<h2 id="machine"></h2>
+	</div>
+	
+	<div> 
+		<h3 id="result-El"></h3> 
+	</div>
+	
+	<div class="puntaje-parcial">
+		<div>
+			<h3 id="puntos"></h3>
+		</div>
+		<div>
+			<h3 id="puntosHumano"></h3>
+		</div>
+	</div>
+	
+	<div class="puntaje-final">
+		<div>
+			<h2 id="final-El"></h2>
+		</div>
+		<div class="reiniciar">
+			<button id="restart-El" onclick="restart()">¿JUGAR DE NUEVO?</button>
+		</div>	
+	</div>
+	
+	<script src="./gameLogic/logic.js"></script>
+</body>
+</html>

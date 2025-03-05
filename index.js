@@ -2,7 +2,7 @@ let manos = ["¡PIEDRA!", "¡PAPEL!", "¡TIJERA!"]
 let machinePoints = 0
 let humanPoints = 0
 
-function piedra(){
+window.piedra = function (){
 	
 	let boton = document.getElementById("machine")
 	let result = document.getElementById("result-El")
@@ -58,7 +58,7 @@ function piedra(){
 	}
 }
 
-function papel(){
+window.papel = function(){
 
 	let boton = document.getElementById("machine")
 	let result = document.getElementById("result-El")
@@ -113,7 +113,7 @@ function papel(){
 	}
 }
 
-function tijera() {
+window.tijera = function() {
 	
 	let boton = document.getElementById("machine")
 	let result = document.getElementById("result-El")
